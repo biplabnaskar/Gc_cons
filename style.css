@@ -11,6 +11,13 @@
     background-color: #8ac8c6 ;
   }
 
+  .main {
+    min-height: 100dvh;
+    width: 100%;
+    padding: 20px 0;
+  }
+  
+
   nav{
     padding: 10px 30px;
     display: flex;
