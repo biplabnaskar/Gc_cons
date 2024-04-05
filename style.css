@@ -8,10 +8,29 @@
   body {
     height: 100%;
     width: 100%;
-    background-color: #8ac8c6 ;
+    background-color: #b4e2e1 ;
   }
 
-  
+  .GC_logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  .GC_logo img{
+    border-radius: 50%;
+  }
+
+  .GC_logo h1{
+    padding-top: 10px;
+    color: #ad9551;
+  }
+
+
   nav{
     padding: 10px 30px;
     display: flex;
