@@ -76,5 +76,22 @@
         </p>
       </div>
     </div>
+    <!-- this is navbar script -->
+    <script>
+      let menu_list = document.getElementById("menu_list");
+      menu_list.style.maxHeight = "0px";
+
+      function toggleMenu() {
+        if (menu_list.style.maxHeight == "0px") {
+          menu_list.style.maxHeight = "300px";
+        } else {
+          menu_list.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <script
+      src="https://kit.fontawesome.com/f8e1a90484.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
