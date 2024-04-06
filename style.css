@@ -11,6 +11,16 @@
     background-color: #b4e2e1 ;
   }
 
+  .logo{
+    height: 40px;
+    display: flex;
+  }
+  .logo img{
+    height: 100%;
+    border-radius: 6px;
+    padding: 4px;
+  }
+
   .GC_logo {
     width: 100%;
     display: flex;
