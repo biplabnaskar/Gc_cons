@@ -8,7 +8,7 @@
   body {
     height: 100%;
     width: 100%;
-    background-color: whitesmoke ;
+    background-color: #FFFFF0 ;
   }
 
   .logo{
@@ -41,7 +41,7 @@
 
   .GC_logo h1{
     padding-top: 10px;
-    color: #ad9551;
+    color: #DFB722;
   }
 
 
