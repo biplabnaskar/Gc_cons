@@ -8,7 +8,7 @@
   body {
     height: 100%;
     width: 100%;
-    background-color: #52b3ef ;
+    background-color: #b4e2e1 ;
   }
 
   .logo{
@@ -111,7 +111,6 @@
 
    /*this is for register box  */
   .container{
-    background-image: url("./images/sky.jpg");
     height: 70vh;
     width: 100%;
     display: flex;
