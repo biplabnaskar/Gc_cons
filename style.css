@@ -69,6 +69,11 @@
   nav ul li a{
     text-decoration: none;
     color: #ffff;
+    transition: 0.3s;
+  }
+
+  nav ul li a:hover{
+   color: #0ef;
   }
 
   .menu_icon{
