@@ -253,7 +253,7 @@ footer{
   height: 400px;
   margin: 10px;
   box-shadow: -1px 0 10px #24262b;
-  background-color: #e91e63;
+  background-color: #800080;
   align-items: center;
   justify-content: center;
   align-self: center;
@@ -262,7 +262,7 @@ footer{
  }
  .box1 p{
   padding-top: 10px;
-  color:#000;
+  color:whitesmoke;
   font-weight: 600;
  }
   
