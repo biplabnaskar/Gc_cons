@@ -89,6 +89,37 @@
         <button type="submit"><b>Sign up</b></button>
       </form>
     </div>
+
+    <div class="pricebox1">
+      <div class="pricebox">
+        <div class="dropdown">
+          Services & Prices
+          <span class="left-icon"></span>
+          <span class="right-icon"></span>
+          <div class="items">
+            <a href="./register.html" style="--i: 1"
+              ><span></span>1. Business setup and managements starting at
+              ₹47000.</a
+            >
+            <a href="./register.html" style="--i: 2"
+              ><span></span>2. Events setup and managements starting at ₹ 48000.
+            </a>
+            <a href="./register.html" style="--i: 3"
+              ><span></span>3. Ceremonial setup and managements starting at ₹
+              45000.</a
+            >
+            <a href="./register.html" style="--i: 4"
+              ><span></span>4. Lights and DJ setups starting at ₹ 26000.</a
+            >
+            <a href="./register.html" style="--i: 5"
+              ><span></span>5. Floral arrangements and decorations starting at
+              ₹15000.</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="container1">
         <div class="row">
@@ -171,5 +202,13 @@
       src="https://kit.fontawesome.com/f8e1a90484.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- for service & price button -->
+    <script>
+      const dropdown = document.querySelector(".dropdown");
+      dropdown.addEventListener("click", () => {
+        dropdown.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
