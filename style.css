@@ -299,7 +299,7 @@ footer{
 .pricebox{
   position: relative;
   width: 600px;
-  height: 330px;
+  height: 350px;
   /* background-color: yellow; */
 }
 
@@ -351,7 +351,7 @@ footer{
  top: 0;
  left: 0;
  width: 100%;
- height: 250px;
+ height: 370px;
  /* background-color: yellowgreen; */
  margin-top: 63px;
  overflow: hidden;
